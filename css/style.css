@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Start Global Rules */
+body{
+    background-color: #CCC5B9;
+    color: white;
+    font-family: system-ui;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #EC6632;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #EF8257;
+    letter-spacing: 1px;
+    transform: scale(1.02);
+
+}
+/* End Global Rules */
+
+/* Start Head */
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: #283618;
+}
+/* End Head */
+
+/* Start Inputs */
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #BAB1A0;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #252422;
+    transition: 0.5s;
+
+}
+input:focus{
+    background-color: #988A71;
+    transform: scale(1.02);
+}
+.inputs .price input{
+    width: 20%;
+}
+.inputs .price small{
+    background-color: #A83B10;
+    padding: 5px 3px;
+    border-radius: 4px;
+}
+.inputs .price small::before{
+    content: "Total: ";
+}
+.inputs textarea{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #BAB1A0;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #252422;
+    transition: 0.5s;
+}
+.inputs textarea:focus{
+    background-color: #988A71;
+    transform: scale(1.02);
+}
+/* End Inputs */
+
+/* Start Outputs */
+.outputs{
+    padding-top: 20px;
+}
+.outputs .btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.outputs .btnSearch button{
+    width: 45%;
+}
+.outputs table tr{
+    text-align: center;
+}
+.outputs table button{
+    width: 80%;
+}
+/* End Outputs */
